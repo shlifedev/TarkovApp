@@ -9,3 +9,5 @@
 # :(
 I have no WPF Project Development Experience.
 So I developed it Really Simple Code.
+This Project for quickly develop my ideas xD
+
