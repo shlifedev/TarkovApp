@@ -13,7 +13,5 @@
 
 
 # Update Planning
-I have no WPF Project Development Experience.
-So I developed it Really Simple Code.
-This Project for quickly develop my ideas xD
-
+I have no WPF Project Development Experience. So I developed it Really Simple Code.
+This Project for quickly develop my ideas. if have good idea i will add a few and simple features. 
