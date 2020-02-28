@@ -2,7 +2,7 @@
 # Download
  Here : -
 
-# Feature
+# Features
  - In Game Overlay Tarkov Market 
  - In Game Overlay Map
  - In Game Overlay Wiki
