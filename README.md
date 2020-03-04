@@ -30,6 +30,8 @@ This app can display maps, wikis, and more as overlays.
  * Fast Offer Helper (Testing)
  * Quest Button
  * Localization
+ 
+ 
 * I have no experience developing WPF projects. So I developed it with really simple code.
 * Support Korean/English
 
