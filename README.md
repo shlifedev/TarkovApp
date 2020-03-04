@@ -1,17 +1,31 @@
+This app can display maps, wikis, and more as overlays.  
 
 # Download
- Here : -
-
-# Features
- - In Game Overlay Tarkov Market 
- - In Game Overlay Map
- - In Game Overlay Wiki
+ Here : [Download](https://github.com/shlifedev/TarkovApp/releases)
  
-# If use it then get ban?
- I have never been banned using it, and i think no reason to be banned.
- However, Use risk is your responsibility. (x.x)..
+# Screenshot
+![screen_shot1](https://github.com/shlifedev/TarkovApp/blob/master/scr1.png?raw=true)
+![screen_shot2](https://github.com/shlifedev/TarkovApp/blob/master/scr2.png?raw=true)
+
+# How to Use
+ * Run the Tarkov and shlifedev/TarkovApp, and press the Insert key.
+ * Do not run Tarkov as an administrator! The key hook does not work.
+ * Build Require VS 2019
+ 
+# Features
+ - In Game Overlay Tarkov Market
+ - In Game Overlay Map
+ - In Game Overlay Wiki (Ammo Wiki, Quest Wiki.. etc support)
+ 
+# If use it then get banned?
+ I have never been banned from using this app, and I think there is no reason to be banned.  
+ However, you bear the risk and responsibility for using this app.
+
+# Update Plan
+ Please submit an issue if you have a good idea.
+ I'll add it as soon as possible.
 
 
-# Update Planning
-I have no WPF Project Development Experience. So I developed it Really Simple Code.
-This Project for quickly develop my ideas. if have good idea i will add a few and simple features. 
+* I have no experience developing WPF projects. So I developed it with really simple code.
+* Support Korean/English
+
