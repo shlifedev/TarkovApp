@@ -1,4 +1,5 @@
 This app can display maps, wikis, and more as overlays.  
+all resoulution support.
 
 # Download
  Here : [Download](https://github.com/shlifedev/TarkovApp/releases)
