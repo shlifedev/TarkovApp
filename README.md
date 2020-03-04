@@ -25,7 +25,11 @@ This app can display maps, wikis, and more as overlays.
  Please submit an issue if you have a good idea.
  I'll add it as soon as possible.
 
-
+# TODO
+ * Latest View Content Cache
+ * Fast Offer Helper (Testing)
+ * Quest Button
+ * Localization
 * I have no experience developing WPF projects. So I developed it with really simple code.
 * Support Korean/English
 
