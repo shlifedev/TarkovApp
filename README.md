@@ -17,5 +17,5 @@ I have no WPF Project Development Experience. So I developed it Really Simple Co
 This Project for quickly develop my ideas. if have good idea i will add a few and simple features. 
 
 
-Do not run Tarkov Game as an administrator! ey hook does not work.
+Do not run Tarkov Game as an administrator! Key hook does not work.
 * Build Require VS 2019
