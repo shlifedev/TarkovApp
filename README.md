@@ -1,7 +1,10 @@
+This app  can display wikis and maps..etc as overlays.
 
 # Download
  Here : [Download](https://github.com/shlifedev/TarkovApp/releases)
-
+# Screen Shot
+![screen_shot1](https://github.com/shlifedev/TarkovApp/blob/master/scr1.png?raw=true)
+![screen_shot2](https://github.com/shlifedev/TarkovApp/blob/master/scr2.png?raw=true)
 # How to Use
  * Open the Game, and Press Insert Key. (Menu Close is ESC or Insert)
 # Features
