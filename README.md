@@ -6,7 +6,8 @@ The app can display maps, wikis, and more as overlays.
 ![screen_shot1](https://github.com/shlifedev/TarkovApp/blob/master/scr1.png?raw=true)
 ![screen_shot2](https://github.com/shlifedev/TarkovApp/blob/master/scr2.png?raw=true)
 # How to Use
- * Open the Game, and Press Insert Key. (Menu Close is ESC or Insert)
+ * Run the Tarkov and shlifedev/TarkovApp
+   And Press Insert Key. (Menu Close is ESC or Insert)
 # Features
  - In Game Overlay Tarkov Market 
  - In Game Overlay Map
