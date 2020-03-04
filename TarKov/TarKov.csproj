@@ -158,8 +158,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Core\Content.cs" />
-    <Compile Include="Core\Enum_Content.cs" />
+    <Compile Include="Content\Content.cs" />
+    <Compile Include="Content\Enum_Content.cs" />
     <Compile Include="Handlers\BrowserHandler.cs" />
     <Compile Include="Handlers\MapHandler.cs" />
     <Compile Include="Handlers\ScreenCapture.cs" />
