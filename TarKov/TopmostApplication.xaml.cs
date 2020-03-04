@@ -55,6 +55,7 @@ namespace TarKov
         }
         public void ChromeInit(string url)
         {
+           
             CefSettings chromium = new CefSettings();
             Cef.Initialize(chromium);
             ChromiumBrowser = new ChromiumWebBrowser();
@@ -63,7 +64,9 @@ namespace TarKov
             ChromiumBrowser.HorizontalAlignment = HorizontalAlignment.Left;
             Grid.SetColumn(ChromiumBrowser, 1);
             AppGrid.Children.Add(ChromiumBrowser);
-            this.ChromiumBrowser.Visibility = Visibility.Visible;
+            ChromiumBrowser.Visibility = Visibility.Visible;
+            BrowserHelper.MainWindow = this;
+            BrowserHelper.Browser = ChromiumBrowser;
         }
         public void ChangeURL(string url, bool whiteBg, int browerSize)
         {
@@ -88,29 +91,32 @@ namespace TarKov
 
         private void Button_Armor(object sender, RoutedEventArgs e)
         {
-            ChangeURL("https://escapefromtarkov.gamepedia.com/Armor_vests", false, 1000);
+            BrowserHelper.VisitContent(EContent.ARMOR);
         }
         private void Button_Ammo(object sender, RoutedEventArgs e)
         {
-            ChangeURL("https://escapefromtarkov.gamepedia.com/Ballistics", false, 600);
+            BrowserHelper.VisitContent(EContent.AMMO);
         }
         private void Button_Market(object sender, RoutedEventArgs e)
         {
-            ChangeURL("https://tarkov-market.com/", false, 600);
+            BrowserHelper.VisitContent(EContent.MARKET);
         }
         private void Button_Weapons(object sender, RoutedEventArgs e)
         {
-            //ChangeURL("https://namu.wiki/w/Escape%20From%20Tarkov/%EB%AC%B4%EA%B8%B0", false, 800); 
-            //en
-            ChangeURL("      https://escapefromtarkov.gamepedia.com/Weapons", false, 1000);
+            BrowserHelper.VisitContent(EContent.WEAPON) ;
+        }
+
+        public void Button_Quest(object sender, RoutedEventArgs e)
+        {
+            BrowserHelper.VisitContent(EContent.QUEST);
         }
         public void DisableBrowser()
         {
-            this.ChromiumBrowser.Visibility = Visibility.Hidden;
+            ChromiumBrowser.Visibility = Visibility.Hidden;
         }
         public void EnableBrowser()
         {
-            this.ChromiumBrowser.Visibility = Visibility.Visible;
+            ChromiumBrowser.Visibility = Visibility.Visible;
         }
         public string GetLocale()
         {
@@ -132,10 +138,11 @@ namespace TarKov
         {
             MapHandler.ShowMap($"Wood_{GetLocale()}");
         }
-        public void Button_Quest(object sender, RoutedEventArgs e)
+        public void Button_Help(object sender, RoutedEventArgs e)
         {
-            ChangeURL("https://escapefromtarkov.gamepedia.com/Quests", false, 1000);
+            MessageBox.Show(" Insert : Close/Open \n ESC : Close \n Same Button Double Click : Return to Original URL","shlifedev@gmail.com", MessageBoxButton.OK);
         }
+
         private void HideMap(object sender, RoutedEventArgs e)
         {
             MapHandler.HideAndBrowserShow();

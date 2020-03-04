@@ -40,5 +40,6 @@
         <Button Content="Wood" HorizontalAlignment="Left"   Width="80"   VerticalAlignment="Bottom"  Height="30" Foreground="White" Background="#BF45FF28" FontSize="17" Click="Button_Map_Wood" Margin="234,0,0,0" BorderBrush="#0200FF17" Grid.Column="1" Grid.Row="1"/>
         <Button Name="CloseMap" Content="Close Map" Grid.Column="1" Visibility="Visible" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="111" Height="35" Click="HideMap" Background="#CCFF0000" BorderBrush="White" Foreground="White" FontSize="20"/>
         <Button Grid.Column="0" Grid.Row="0" Content="Quest" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="24" Foreground="White" Background="#67FF8B00" Click="Button_Quest" Margin="0,91,0,0" BorderBrush="#0200FF17"/>
+        <Button Grid.Column="0" Grid.Row="0" Content="Help" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="24" Foreground="White" Background="#67000000" Click="Button_Help" Margin="0,113,0,0" BorderBrush="#0200FF17"/>
     </Grid>
 </Window>
