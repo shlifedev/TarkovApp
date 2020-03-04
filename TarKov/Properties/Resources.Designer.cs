@@ -63,9 +63,29 @@ namespace TarKov.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap Custom_en {
+            get {
+                object obj = ResourceManager.GetObject("Custom_en", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap Custom_kr {
             get {
                 object obj = ResourceManager.GetObject("Custom_kr", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap InterChange_en {
+            get {
+                object obj = ResourceManager.GetObject("InterChange_en", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +103,29 @@ namespace TarKov.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap Reserve_en {
+            get {
+                object obj = ResourceManager.GetObject("Reserve_en", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap Reserve_kr {
             get {
                 object obj = ResourceManager.GetObject("Reserve_kr", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap Wood_en {
+            get {
+                object obj = ResourceManager.GetObject("Wood_en", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -29,7 +29,6 @@
         <Button Grid.Column="0" Grid.Row="0" Content="Ammo" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="25" Foreground="White" Background="#67B9FF00" Click="Button_Ammo" Margin="0,22,0,0" BorderBrush="#0200FF17"/>
         <Button Grid.Column="0" Grid.Row="0" Content="Weapons" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="26" Foreground="White" Background="#6700D1FF" Click="Button_Weapons" Margin="0,45,0,0" BorderBrush="#0200FF17"/>
         <Button Grid.Column="0" Grid.Row="0" Content="Armors" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="24" Foreground="White" Background="#6700FF00" Click="Button_Armor" Margin="0,69,0,0" BorderBrush="#0200FF17"/>
-        <Button Content="MoneyPyramid" HorizontalAlignment="Stretch" VerticalAlignment="Top"   Height="23" Foreground="White" Background="#67FF0000" Click="Button_Pyramid" Margin="0,92,0,0" BorderBrush="#0200FF17"/>
 
         <Label Grid.Column="0" Grid.Row="1" Content="shlifedev@gmail.com" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="300" Foreground="White" Height="38" FontFamily="Im`ct" Background="#00000000" Grid.ColumnSpan="2" Margin="0,0,0,0" FontSize="8"/>
 

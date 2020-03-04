@@ -191,9 +191,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Custom_kr.bmp" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="favicon.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -210,6 +207,18 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Application\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="res\Custom_en.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="res\InterChange_en.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="res\Reserve_en.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="res\Wood_en.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

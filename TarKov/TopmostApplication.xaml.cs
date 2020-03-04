@@ -99,12 +99,10 @@ namespace TarKov
             ChangeURL("https://tarkov-market.com/", false, 600);
         }
         private void Button_Weapons(object sender, RoutedEventArgs e)
-        {
-            ChangeURL("https://namu.wiki/w/Escape%20From%20Tarkov/%EB%AC%B4%EA%B8%B0", false, 800);
-        }
-        private void Button_Pyramid(object sender, RoutedEventArgs e)
         { 
-            ChangeURL("https://gall.dcinside.com/mgallery/board/view/?id=eft&no=73949&exception_mode=recommend&page=1", true, 1000);
+            //ChangeURL("https://namu.wiki/w/Escape%20From%20Tarkov/%EB%AC%B4%EA%B8%B0", false, 800); 
+            //en
+            ChangeURL("      https://escapefromtarkov.gamepedia.com/Weapons", false, 1000); 
         } 
         public void DisableBrowser()
         {
@@ -116,7 +114,7 @@ namespace TarKov
         }  
         public string GetLocale()
         {
-            return "kr";
+            return "en";
         }
         public void Button_Map_Reserve(object sender, RoutedEventArgs e)
         {
