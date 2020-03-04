@@ -32,6 +32,6 @@ This app can display maps, wikis, and more as overlays.
  * Localization
  
  
-* I have no experience developing WPF projects. So I developed it with really simple code.
-* Support Korean/English
+I have no experience developing WPF projects. So I developed it with really simple code.
+I will Multi-Support Korean/English
 
