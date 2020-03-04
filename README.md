@@ -27,7 +27,7 @@ This app can display maps, wikis, and more as overlays.
 
 # TODO
  * Latest View Content Cache
- * Fast Offer Helper (Testing)
+ * Fast Offer Helper (Testing, It save your hand :D )
  * Quest Button
  * Localization
  
