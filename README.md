@@ -27,9 +27,9 @@ all resoulution support.
  I'll add it as soon as possible.
 
 # TODO
- * Latest View Content Cache
+ * Latest View Content Cache (0.3 Done)
  * Fast Offer Helper (Testing, It save your hand :D )
- * Quest Button
+ * Quest Button (0.3 Done)
  * Localization
  
  
