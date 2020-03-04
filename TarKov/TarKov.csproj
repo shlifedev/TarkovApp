@@ -158,6 +158,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Core\Enum_Content.cs" />
     <Compile Include="Handlers\BrowserHandler.cs" />
     <Compile Include="Handlers\MapHandler.cs" />
     <Compile Include="Handlers\ScreenCapture.cs" />
@@ -213,9 +214,7 @@
   <ItemGroup>
     <Resource Include="res\Wood_kr.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Application\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="res\Custom_en.jpg" />
   </ItemGroup>

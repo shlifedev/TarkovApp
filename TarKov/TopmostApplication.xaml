@@ -26,9 +26,9 @@
         </Grid.RowDefinitions>
         <Rectangle Name="whiteBackground" Visibility="Hidden" Fill="#CCFFFFFF" HorizontalAlignment="Left" Height="1676" Stroke="Black" VerticalAlignment="Top" Width="1516" Margin="0,-504,-1048,-672" Grid.Column="1"/>
         <Button Grid.Column="0" Grid.Row="0" Content="Market" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="24" Foreground="White" Background="#67FF00B9" Click="Button_Market" BorderBrush="#0200FF17"/>
-        <Button Grid.Column="0" Grid.Row="0" Content="Ammo" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="25" Foreground="White" Background="#67B9FF00" Click="Button_Ammo" Margin="0,22,0,0" BorderBrush="#0200FF17"/>
-        <Button Grid.Column="0" Grid.Row="0" Content="Weapons" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="26" Foreground="White" Background="#6700D1FF" Click="Button_Weapons" Margin="0,45,0,0" BorderBrush="#0200FF17"/>
-        <Button Grid.Column="0" Grid.Row="0" Content="Armors" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="24" Foreground="White" Background="#6700FF00" Click="Button_Armor" Margin="0,69,0,0" BorderBrush="#0200FF17"/>
+        <Button Grid.Column="0" Grid.Row="0" Content="Ammo" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="25" Foreground="White" Background="#67FF0000" Click="Button_Ammo" Margin="0,22,0,0" BorderBrush="#0200FF17"/>
+        <Button Grid.Column="0" Grid.Row="0" Content="Weapons" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="26" Foreground="White" Background="#672EFF00" Click="Button_Weapons" Margin="0,45,0,0" BorderBrush="#0200FF17"/>
+        <Button Grid.Column="0" Grid.Row="0" Content="Armors" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="24" Foreground="White" Background="#67008BFF" Click="Button_Armor" Margin="0,69,0,0" BorderBrush="#0200FF17"/>
 
         <Label Grid.Column="0" Grid.Row="1" Content="shlifedev@gmail.com" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="300" Foreground="White" Height="38" FontFamily="Im`ct" Background="#00000000" Grid.ColumnSpan="2" Margin="0,0,0,0" FontSize="8"/>
 
@@ -39,5 +39,6 @@
         <Button Content="Custom" HorizontalAlignment="Left" Width="80"   VerticalAlignment="Bottom"  Height="30" Foreground="White" Background="#BFB37FFF" FontSize="17" Click="Button_Map_Custom" Margin="78,0,0,0" BorderBrush="#0200FF17" Grid.Column="1" Grid.Row="1"/>
         <Button Content="Wood" HorizontalAlignment="Left"   Width="80"   VerticalAlignment="Bottom"  Height="30" Foreground="White" Background="#BF45FF28" FontSize="17" Click="Button_Map_Wood" Margin="234,0,0,0" BorderBrush="#0200FF17" Grid.Column="1" Grid.Row="1"/>
         <Button Name="CloseMap" Content="Close Map" Grid.Column="1" Visibility="Visible" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="111" Height="35" Click="HideMap" Background="#CCFF0000" BorderBrush="White" Foreground="White" FontSize="20"/>
+        <Button Grid.Column="0" Grid.Row="0" Content="Quest" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="24" Foreground="White" Background="#67FF8B00" Click="Button_Quest" Margin="0,91,0,0" BorderBrush="#0200FF17"/>
     </Grid>
 </Window>
