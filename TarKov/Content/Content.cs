@@ -42,13 +42,11 @@ public static class BrowserHelper
         if (ContentMap.Count == 0)
             Init();
 
-
+       
         if (content != CurrentCotnent && CurrentCotnent != EContent.NONE)
-        {
-            //현재 컨텐츠를 가져온다.
+        { 
             var currentContent = ContentMap[CurrentCotnent];
-            currentContent.LatestURL = Browser.Address; 
-           // currentContent.LatestScrollHeight = Browser.Height; 
+            currentContent.LatestURL = Browser.Address;  
         }
         else
         {
@@ -85,7 +83,6 @@ public static class BrowserHelper
         Browser.Visibility = Visibility.Visible;
         Browser.HorizontalAlignment = HorizontalAlignment.Left;
         Browser.Width = visitContent.Width;
-        Browser.Load(visitContent.LatestURL);
-        //Browser.p = getContent.LatestScrollHeight;
+        Browser.Load(visitContent.LatestURL); 
     }
 }
