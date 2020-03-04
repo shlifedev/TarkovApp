@@ -7,8 +7,7 @@
 # Features
  - In Game Overlay Tarkov Market 
  - In Game Overlay Map
- - In Game Overlay Wiki
- 
+ - In Game Overlay Wiki (Ammo Wiki, Quest Wiki.. etc support)
 # If use it then get ban?
  I have never been banned using it, and i think no reason to be banned.
  However, Use risk is your responsibility. (x.x)..
