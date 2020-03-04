@@ -1,6 +1,7 @@
 
 # Download
- Here : -
+ Here : [Download](https://github.com/shlifedev/TarkovApp/releases)
+
 
 # Features
  - In Game Overlay Tarkov Market 
@@ -15,3 +16,6 @@
 # Update Planning
 I have no WPF Project Development Experience. So I developed it Really Simple Code.
 This Project for quickly develop my ideas. if have good idea i will add a few and simple features. 
+
+
+* Build Require VS 2019
