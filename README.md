@@ -19,6 +19,7 @@ This app  can display wikis and maps..etc as overlays.
 I have no WPF Project Development Experience. So I developed it Really Simple Code.
 This Project for quickly develop my ideas. if have good idea i will add a few and simple features. 
 
-
 Do not run Tarkov Game as an administrator! Key hook does not work.
 * Build Require VS 2019
+
+Support Korean/English
