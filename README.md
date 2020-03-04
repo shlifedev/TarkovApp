@@ -2,7 +2,8 @@
 # Download
  Here : [Download](https://github.com/shlifedev/TarkovApp/releases)
 
-
+# How to Use
+ * Open the Game, and Press Insert Key. (Menu Close is ESC or Insert)
 # Features
  - In Game Overlay Tarkov Market 
  - In Game Overlay Map
