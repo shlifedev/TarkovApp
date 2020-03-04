@@ -1,4 +1,4 @@
-This app  can display wikis and maps..etc as overlays.
+The app can display maps, wikis, and more as overlays. 
 
 # Download
  Here : [Download](https://github.com/shlifedev/TarkovApp/releases)
