@@ -130,6 +130,14 @@ namespace TarKov
         {
             MapHandler.ShowMap($"InterChange_{GetLocale()}");
         }
+        public void Button_Map_Shoreline(object sender, RoutedEventArgs e)
+        {
+            MapHandler.ShowMap($"Shoreline_{GetLocale()}");
+        }
+        public void Button_Map_Factory(object sender, RoutedEventArgs e)
+        {
+            MapHandler.ShowMap($"Factory_{GetLocale()}");
+        }
         public void Button_Map_Custom(object sender, RoutedEventArgs e)
         {
             MapHandler.ShowMap($"Custom_{GetLocale()}");

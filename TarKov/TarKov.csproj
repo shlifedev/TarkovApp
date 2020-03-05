@@ -215,7 +215,9 @@
   <ItemGroup>
     <Resource Include="res\Wood_kr.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="res\Factory_en.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="res\Custom_en.jpg" />
   </ItemGroup>
@@ -227,6 +229,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="res\Wood_en.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="res\Shoreline_en.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

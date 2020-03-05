@@ -124,6 +124,9 @@
   <data name="Custom_kr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\res\Custom_kr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Factory_en" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\Factory_en.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="InterChange_en" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\res\InterChange_en.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -135,6 +138,9 @@
   </data>
   <data name="Reserve_kr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\res\Reserve_kr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shoreline_en" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\Shoreline_en.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Wood_en" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\res\Wood_en.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
