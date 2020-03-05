@@ -42,6 +42,7 @@ namespace TarKov
             ChromeInit("https://tarkov-market.com/");
             InputHelper.Init();
             AppHandler.Init(this);
+            NetStat.Test();
         }
         void Setup()
         {

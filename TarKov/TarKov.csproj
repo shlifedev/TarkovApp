@@ -167,6 +167,7 @@
     <Compile Include="Handlers\AppHandler.cs" />
     <Compile Include="Handlers\InputHandler.cs" />
     <Compile Include="Handlers\OfferHandler.cs" />
+    <Compile Include="Location\NetStat.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
