@@ -1,4 +1,5 @@
 This app can display maps, wikis, and more as overlays.  
+all resoulution support.
 
 # Download
  Here : [Download](https://github.com/shlifedev/TarkovApp/releases)
@@ -26,9 +27,9 @@ This app can display maps, wikis, and more as overlays.
  I'll add it as soon as possible.
 
 # TODO
- * Latest View Content Cache
+ * Latest View Content Cache (0.3 Done)
  * Fast Offer Helper (Testing, It save your hand :D )
- * Quest Button
+ * Quest Button (0.3 Done)
  * Localization
  
  
