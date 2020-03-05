@@ -27,4 +27,4 @@ all resoulution support.
  I'll add it as soon as possible.
  
  
-I have no experience developing WPF projects. So I developed it with really simple code. 
+I have no experience developing WPF projects. So I developed it with really simple code for fast develop my idea.
