@@ -2,8 +2,8 @@ This app can display maps, wikis, and more as overlays.
 all resoulution support.
 
 # Download
- Here : [Download](https://github.com/shlifedev/TarkovApp/releases)
- 
+ Here : [Download](https://github.com/shlifedev/TarkovApp/releases)  
+ Require .net 4.6.1 
 # Screenshot
 ![screen_shot1](https://github.com/shlifedev/TarkovApp/blob/master/scr1.png?raw=true)
 ![screen_shot2](https://github.com/shlifedev/TarkovApp/blob/master/scr2.png?raw=true)
