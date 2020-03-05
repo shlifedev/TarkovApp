@@ -25,12 +25,6 @@ all resoulution support.
 # Update Plan
  Please submit an issue if you have a good idea.
  I'll add it as soon as possible.
-
-# TODO
- * Latest View Content Cache (0.3 Done)
- * Fast Offer Helper (Testing, It save your hand :D )
- * Quest Button (0.3 Done)
- * Localization
  
  
 I have no experience developing WPF projects. So I developed it with really simple code. 
