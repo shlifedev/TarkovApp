@@ -11,7 +11,7 @@ all resoulution support.
 # How to Use
  * Run the Tarkov and shlifedev/TarkovApp, and press the Insert key.
  * Do not run Tarkov as an administrator! The key hook does not work.
- * Build Require VS 2019
+ * Build Require VS 2019 **(If you remove the Fody package, you can also build on vs 2017)**
  
 # Features
  - In Game Overlay Tarkov Market
