@@ -19,4 +19,4 @@
  I have never been banned from using this app, and I think there is no reason to be banned.  
  However, you bear the risk and responsibility for using this app.
  
-WPF 에 대한 경험이나 지식 없이, 빠르게 아이디어 앱으로 만든것이므로 리팩토링은 하지 않습니다.
+ 
