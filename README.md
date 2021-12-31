@@ -1,4 +1,7 @@
- # Download
+
+archived repository.
+
+# Download
  Here : [Download](https://github.com/shlifedev/TarkovApp/releases)  
  Require .net 4.6.1 
  
@@ -16,7 +19,5 @@
  - In Game Overlay Wiki (Ammo Wiki, Quest Wiki.. etc support)
  
 # If use it then get banned?
- I have never been banned from using this app, and I think there is no reason to be banned.  
- However, you bear the risk and responsibility for using this app.
- 
+No :)
  
