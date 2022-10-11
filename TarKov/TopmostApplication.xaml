@@ -1,0 +1,47 @@
+﻿<Window x:Class="TarKov.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TarKov"
+        mc:Ignorable="d" 
+        WindowStyle="None"
+        ResizeMode="NoResize" 
+        AllowsTransparency="true"
+        Background="Transparent"
+        WindowState="Maximized"  
+        Top="0"
+        Left="0" 
+        >
+
+
+    <Grid Background="#00000000" Name="AppGrid" VerticalAlignment="Top" Height ="500">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Rectangle Name="whiteBackground" Visibility="Hidden" Fill="#CCFFFFFF" HorizontalAlignment="Left" Height="1676" Stroke="Black" VerticalAlignment="Top" Width="1516" Margin="0,-504,-1048,-672" Grid.Column="1"/>
+        <Button Grid.Column="0" Grid.Row="0" Content="Market" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="24" Foreground="White" Background="#67FF00B9" Click="Button_Market" BorderBrush="#0200FF17"/>
+        <Button Grid.Column="0" Grid.Row="0" Content="Ammo" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="25" Foreground="White" Background="#67FF0000" Click="Button_Ammo" Margin="0,22,0,0" BorderBrush="#0200FF17"/>
+        <Button Grid.Column="0" Grid.Row="0" Content="Weapons" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="26" Foreground="White" Background="#672EFF00" Click="Button_Weapons" Margin="0,45,0,0" BorderBrush="#0200FF17"/>
+        <Button Grid.Column="0" Grid.Row="0" Content="Armors" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="24" Foreground="White" Background="#67008BFF" Click="Button_Armor" Margin="0,69,0,0" BorderBrush="#0200FF17"/>
+
+        <Label Grid.Column="0" Grid.Row="1" Content="shlifedev@gmail.com" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="300" Foreground="White" Height="38" FontFamily="Im`ct" Background="#00000000" Grid.ColumnSpan="2" Margin="0,0,0,0" FontSize="8"/>
+
+        <Rectangle Name="MapImage" Visibility="Hidden" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <!-- Bottom Map's Button List -->    
+        <Button Content="Reserve" HorizontalAlignment="Left" Width="80"   VerticalAlignment="Bottom"  Height="30" Foreground="White" Background="#BFFF003A" FontSize="17" Click="Button_Map_Reserve" BorderBrush="#0200FF17" Grid.Column="1" Grid.Row="1" Margin="0,0,0,0"/>
+        <Button Content="IC" HorizontalAlignment="Left"   Width="80"   VerticalAlignment="Bottom"  Height="30" Foreground="White" Background="#BF002F66" FontSize="17" Click="Button_Map_InterChange" Margin="156,0,0,0" BorderBrush="#0200FF17" Grid.Column="1" Grid.Row="1"/>
+        <Button Content="Custom" HorizontalAlignment="Left" Width="80"   VerticalAlignment="Bottom"  Height="30" Foreground="White" Background="#BFB37FFF" FontSize="17" Click="Button_Map_Custom" Margin="78,0,0,0" BorderBrush="#0200FF17" Grid.Column="1" Grid.Row="1"/>
+        <Button Content="Wood" HorizontalAlignment="Left"   Width="80"   VerticalAlignment="Bottom"  Height="30" Foreground="White" Background="#BF45FF28" FontSize="17" Click="Button_Map_Wood" Margin="234,0,0,0" BorderBrush="#0200FF17" Grid.Column="1" Grid.Row="1"/>
+        <Button Name="CloseMap" Content="Close Map" Grid.Column="1" Visibility="Visible" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="111" Height="35" Click="HideMap" Background="#CCFF0000" BorderBrush="White" Foreground="White" FontSize="20"/>
+        <Button Grid.Column="0" Grid.Row="0" Content="Quest" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="24" Foreground="White" Background="#67FF8B00" Click="Button_Quest" Margin="0,91,0,0" BorderBrush="#0200FF17"/>
+        <Button Grid.Column="0" Grid.Row="0" Content="Help" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="24" Foreground="White" Background="#67000000" Click="Button_Help" Margin="0,113,0,0" BorderBrush="#0200FF17"/>
+        <Button Content="Shoreline" HorizontalAlignment="Left"   Width="80"   VerticalAlignment="Bottom"  Height="30" Foreground="White" Background="#BFFF8B00" FontSize="17" Click="Button_Map_Shoreline" Margin="312,0,0,0" BorderBrush="#0200FF17" Grid.Column="1" Grid.Row="1"/>
+        <Button Content="Factory" HorizontalAlignment="Left"   Width="80"   VerticalAlignment="Bottom"  Height="30" Foreground="White" Background="#BF79FFED" FontSize="17" Click="Button_Map_Factory" Margin="390,0,0,0" BorderBrush="#0200FF17" Grid.Column="1" Grid.Row="1"/>
+    </Grid>
+</Window>
