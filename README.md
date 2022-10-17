@@ -6,8 +6,8 @@ archived repository.
  Require .net 4.6.1 
  
 # Screenshot
-![screen_shot1](https://github.com/shlifedev/TarkovApp/blob/master/scr1.png?raw=true)
-![screen_shot2](https://github.com/shlifedev/TarkovApp/blob/master/scr2.png?raw=true)
+![screen_shot1](https://github.com/shlifedev/TarkovApp/blob/main/scr1.png?raw=true)
+![screen_shot2](https://github.com/shlifedev/TarkovApp/blob/main/scr2.png?raw=true)
 
 # How to Use
  * Run the Tarkov and shlifedev/TarkovApp, and press the Insert key.
